@@ -1,0 +1,102 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.5rem;
+  margin: -2rem auto;
+}
+
+.input {
+  width: 39.875rem;
+  height: 3.375rem;
+
+  border-radius: 8px;
+  padding: 16px;
+
+  border: 0;
+
+  background-color: var(--gray-500);
+  color: var(--white);
+}
+
+.button[type="submit"] {
+  width: 5.625rem;
+  height: 3.25rem;
+
+  border: 0;
+  border-radius: 8px;
+
+  padding: 16px;
+
+  color: var(--white);
+  background-color: var(--blue-dark);
+  cursor: pointer;
+
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  gap: 2px;
+
+  transition: background-color 0.2s;
+}
+
+.button[type="submit"]:hover {
+  background-color: var(--blue);
+}
+
+.container {
+  width: 46rem;
+  height: 17.9375rem;
+
+  margin: 5rem auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.create > strong {
+  color: var(--blue);
+  margin-right: 8px;
+}
+
+.create > span {
+  width: 25px;
+  height: 19px;
+  border-radius: 9999px;
+
+  padding: 2px 8px;
+
+  background-color: var(--gray-400);
+  color: var(--white);
+}
+
+.done > strong {
+  color: var(--purple);
+  margin-right: 8px;
+}
+
+.done span {
+  width: 25px;
+  height: 19px;
+  border-radius: 9999px;
+
+  padding: 2px 8px;
+
+  background-color: var(--gray-400);
+  color: var(--white);
+}
+
+.boxTask {
+  height: auto;
+  margin-top: 4rem;
+}
+
+.isSelected {
+  text-decoration: dotted;
+}
