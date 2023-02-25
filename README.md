@@ -19,7 +19,7 @@ Para utilizar este projeto, siga os passos abaixo:
 # Clone o repositório utilizando o comando abaixo:
 git clone https://github.com/BrunoJSC/desafio-todo.git
 
-# Instale as dependências do projeto utilizando o gerenciador de pacotes Yarn:
+# Instale as dependências do projeto utilizando o gerenciador de pacotes Yarn: <br />
 yarn
 
 # Execute o projeto:
