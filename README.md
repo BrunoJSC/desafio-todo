@@ -11,7 +11,7 @@ Marcar tarefa como concluída ou não concluída
 # Tecnologias utilizadas <br />
 ReactJS <br />
 Typescript <br />
-styled-components
+CSS Modules
 
 # Como utilizar <br />
 Para utilizar este projeto, siga os passos abaixo:
